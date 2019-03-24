@@ -3,7 +3,7 @@ module.exports = function makeExchange(currency) {
     // Your code goes here!
     // Return an object containing the minimum number of coins needed to make change
 
-    let minCoins = {}
+    let minCoins = {}:
     // Откидываем сдачу больше 10000
 
         if (currency > 10000) {
